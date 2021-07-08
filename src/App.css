@@ -1,38 +1,53 @@
+/*
+
+CSS FOR COUNTER APP
+
 .App {
-  text-align: center;
+ text-align:center;
+ display:flex;
+ justify-content: start;
+ align-items: center;
+ flex-direction: column;
+ min-height: 100vh;
+ color: aliceblue;
+ background: gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  color:#ffffff;
+  padding: 5px 25px;
+  margin: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  width: 300px;
+  border-radius: 15px;
+  background-color: green;
+
+} */
+
+body{
+  background-color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  width: auto;
+  height: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+.icon {
+  font-size: 35px;
+  color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
